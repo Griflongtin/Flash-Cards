@@ -1,78 +1,163 @@
 $(function() {
-  $('.JavaScript').click(function(){
-    $('.JavaScript-card-back').slideToggle();
-    $('.JavaScript-card-front').slideToggle();
+  $('.javascript').click(function(){
+    $('.javascript-card-back').slideToggle();
+    $('.javascript-card-front').slideToggle();
   });
-  $('.Operators').click(function(){
-    $('.Operators-card-back').slideToggle();
-    $('.Operators-card-front').slideToggle();
+  $('.operators').click(function(){
+    $('.operators-card-back').slideToggle();
+    $('.operators-card-front').slideToggle();
   });
-  $('.Variables').click(function(){
-    $('.Variables-card-back').slideToggle();
-    $('.Variables-card-front').slideToggle();
+  $('.variables').click(function(){
+    $('.variables-card-back').slideToggle();
+    $('.variables-card-front').slideToggle();
   });
-  $('.Variable-name-convention').click(function(){
-    $('.Variable-name-convention-card-back').slideToggle();
-    $('.Variable-name-convention-card-front').slideToggle();
+  $('.variable-naming-conventions').click(function(){
+    $('.variable-naming-conventions-card-back').slideToggle();
+    $('.variable-naming-conventions-card-front').slideToggle();
   });
-  $('.Function').click(function(){
-    $('.Function-card-back').slideToggle();
-    $('.Function-card-front').slideToggle();
+  $('.functions').click(function(){
+    $('.functions-card-back').slideToggle();
+    $('.functions-card-front').slideToggle();
   });
-  $('.Methods').click(function(){
-    $('.Methods-card-back').slideToggle();
-    $('.Methods-card-front').slideToggle();
+  $('.methods').click(function(){
+    $('.methods-card-back').slideToggle();
+    $('.methods-card-front').slideToggle();
   });
-  $('.Arguments').click(function(){
-    $('.Arguments-card-back').slideToggle();
-    $('.Arguments-card-front').slideToggle();
+  $('.arguments').click(function(){
+    $('.arguments-card-back').slideToggle();
+    $('.arguments-card-front').slideToggle();
   });
-  $('.Parameters').click(function(){
-    $('.Parameters-card-back').slideToggle();
-    $('.Parameters-card-front').slideToggle();
+  $('.parameters').click(function(){
+    $('.parameters-card-back').slideToggle();
+    $('.parameters-card-front').slideToggle();
   });
-  $('.Return').click(function(){
-    $('.Return-card-back').slideToggle();
-    $('.Return-card-front').slideToggle();
+  $('.return').click(function(){
+    $('.return-card-back').slideToggle();
+    $('.return-card-front').slideToggle();
   });
-  $('.Chaining-methods').click(function(){
-    $('.Chaining-methods-card-back').slideToggle();
-    $('.Chaining-methods-card-front').slideToggle();
+  $('.chaining-methods').click(function(){
+    $('.chaining-methods-card-back').slideToggle();
+    $('.chaining-methods-card-front').slideToggle();
   });
-  $('.Strings').click(function(){
-    $('.Strings-card-back').slideToggle();
-    $('.Strings-card-front').slideToggle();
+  $('.strings').click(function(){
+    $('.strings-card-back').slideToggle();
+    $('.strings-card-front').slideToggle();
   });
-  $('.Booleans').click(function(){
-    $('.Booleans-card-back').slideToggle();
-    $('.Booleans-card-front').slideToggle();
+  $('.booleans').click(function(){
+    $('.booleans-card-back').slideToggle();
+    $('.booleans-card-front').slideToggle();
   });
-  $('.Undefined').click(function(){
-    $('.Undefined-card-back').slideToggle();
-    $('.Undefined-card-front').slideToggle();
+  $('.undefined').click(function(){
+    $('.undefined-card-back').slideToggle();
+    $('.undefined-card-front').slideToggle();
   });
-  $('.NaN').click(function(){
-    $('.NaN-card-back').slideToggle();
-    $('.NaN-card-front').slideToggle();
+  $('.nan').click(function(){
+    $('.nan-card-back').slideToggle();
+    $('.nan-card-front').slideToggle();
   });
-  $('.Escape').click(function(){
-    $('.Escape-card-back').slideToggle();
-    $('.Escape-card-front').slideToggle();
+  $('.escape').click(function(){
+    $('.escape-card-back').slideToggle();
+    $('.escape-card-front').slideToggle();
   });
-  $('.Alert').click(function(){
-    $('.Alert-card-back').slideToggle();
-    $('.Alert-card-front').slideToggle();
+  $('.alert').click(function(){
+    $('.alert-card-back').slideToggle();
+    $('.alert-card-front').slideToggle();
   });
-  $('.Comments').click(function(){
-    $('.Comments-card-back').slideToggle();
-    $('.Comments-card-front').slideToggle();
+  $('.comments').click(function(){
+    $('.comments-card-back').slideToggle();
+    $('.comments-card-front').slideToggle();
   });
-  $('.jQuery').click(function(){
-    $('.jQuery-card-back').slideToggle();
-    $('.jQuery-card-front').slideToggle();
+  $('.jquery').click(function(){
+    $('.jquery-card-back').slideToggle();
+    $('.jquery-card-front').slideToggle();
   });
-  $('.Attributes').click(function(){
-    $('.Attributes-card-back').slideToggle();
-    $('.Attributes-card-front').slideToggle();
+  $('.attributes').click(function(){
+    $('.attributes-card-back').slideToggle();
+    $('.attributes-card-front').slideToggle();
+  });
+
+
+
+
+
+
+
+
+
+//buttons for showing each index card.//
+
+
+  $('#operators').click(function(){
+    $('.javascript-card-back-card-back').hide();
+    $('.javascript-card-back-card-front').hide();
+    $('.operators-card-front').show();
+  });
+  $('.variables').click(function(){
+    $('.variables-card-back').slideToggle();
+    $('.variables-card-front').slideToggle();
+  });
+  $('.variable-naming-conventions').click(function(){
+    $('.variable-naming-conventions-card-back').slideToggle();
+    $('.variable-naming-conventions-card-front').slideToggle();
+  });
+  $('.functions').click(function(){
+    $('.functions-card-back').slideToggle();
+    $('.functions-card-front').slideToggle();
+  });
+  $('.methods').click(function(){
+    $('.methods-card-back').slideToggle();
+    $('.methods-card-front').slideToggle();
+  });
+  $('.arguments').click(function(){
+    $('.arguments-card-back').slideToggle();
+    $('.arguments-card-front').slideToggle();
+  });
+  $('.parameters').click(function(){
+    $('.parameters-card-back').slideToggle();
+    $('.parameters-card-front').slideToggle();
+  });
+  $('.return').click(function(){
+    $('.return-card-back').slideToggle();
+    $('.return-card-front').slideToggle();
+  });
+  $('.chaining-methods').click(function(){
+    $('.chaining-methods-card-back').slideToggle();
+    $('.chaining-methods-card-front').slideToggle();
+  });
+  $('.strings').click(function(){
+    $('.strings-card-back').slideToggle();
+    $('.strings-card-front').slideToggle();
+  });
+  $('.booleans').click(function(){
+    $('.booleans-card-back').slideToggle();
+    $('.booleans-card-front').slideToggle();
+  });
+  $('.undefined').click(function(){
+    $('.undefined-card-back').slideToggle();
+    $('.undefined-card-front').slideToggle();
+  });
+  $('.nan').click(function(){
+    $('.nan-card-back').slideToggle();
+    $('.nan-card-front').slideToggle();
+  });
+  $('.escape').click(function(){
+    $('.escape-card-back').slideToggle();
+    $('.escape-card-front').slideToggle();
+  });
+  $('.alert').click(function(){
+    $('.alert-card-back').slideToggle();
+    $('.alert-card-front').slideToggle();
+  });
+  $('.comments').click(function(){
+    $('.comments-card-back').slideToggle();
+    $('.comments-card-front').slideToggle();
+  });
+  $('.jquery').click(function(){
+    $('.jquery-card-back').slideToggle();
+    $('.jquery-card-front').slideToggle();
+  });
+  $('.attributes').click(function(){
+    $('.attributes-card-back').slideToggle();
+    $('.attributes-card-front').slideToggle();
   });
 });
